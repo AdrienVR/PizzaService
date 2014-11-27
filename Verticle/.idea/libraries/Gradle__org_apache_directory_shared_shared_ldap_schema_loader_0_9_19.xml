@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.directory.shared:shared-ldap-schema-loader:0.9.19">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.directory.shared/shared-ldap-schema-loader/0.9.19/82d8a22e58ec93fe3a582b5d573c724ebe91eac1/shared-ldap-schema-loader-0.9.19.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.directory.shared/shared-ldap-schema-loader/0.9.19/8ced8a9a7a6f5088a0b6a2532c690755ac58bd75/shared-ldap-schema-loader-0.9.19-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
