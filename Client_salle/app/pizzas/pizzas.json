@@ -1,0 +1,226 @@
+[
+  {
+    "note": "3/5",
+    "description": "Sauce tomate, emmental",
+    "id": "Fromage",
+    "img": "pizzas/img/Fromage.jpg",
+    "name": "Fromage"
+  },
+  {
+    "note": "4.5/5",
+    "description": "Sauce tomate, emmental, jambon",
+    "id": "Reine",
+    "img": "pizzas/img/Reine.jpg",
+    "name": "Reine"
+  },
+  {
+    "note": "5/5",
+    "description": "Sauce tomate, emmental, jambon, champignons",
+    "id": "Regina",
+    "img": "pizzas/img/Regina.jpg",
+    "name": "Regina"
+  },
+  {
+    "note": "5/5",
+    "description": "Sauce tomate, emmental, anchois",
+    "id": "Anchois",
+    "img": "pizzas/img/Anchois.jpg",
+    "name": "Anchois"
+  },
+  {
+    "note": "5/5",
+    "description": "Sauce tomate, emmental, figatelli, brousse de brebis, oignons, mozzarella",
+    "id": "Corsica",
+    "img": "pizzas/img/Corsica.jpg",
+    "name": "Corsica"
+  },
+  {
+    "note": "5/5",
+    "description": "Sauce tomate, emmental, merguez, oignons, poivrons",
+    "id": "Oranaise",
+    "img": "pizzas/img/Oranaise.jpg",
+    "name": "Oranaise"
+  },
+  {
+    "note": "5/5",
+    "description": "Sauce tomate, emmental, jambon, ananas",
+    "id": "Loicienne",
+    "img": "pizzas/img/Loicienne.jpg",
+    "name": "Loïcienne"
+  },
+  {
+    "note": "5/5",
+    "description": "Sauce tomate, emmental, jambon, champignons, mozzarella",
+    "id": "Napoli",
+    "img": "pizzas/img/Napoli.jpg",
+    "name": "Napoli"
+  },
+  {
+    "note": "5/5",
+    "description": "Sauce tomate, anchois, câpres",
+    "id": "Capre",
+    "img": "pizzas/img/Capre.jpg",
+    "name": "Câpre"
+  },
+  {
+    "note": "5/5",
+    "description": "Sauce tomate, emmental, bœuf haché, parmesan, oignons",
+    "id": "Bolognaise",
+    "img": "pizzas/img/Bolognaise.jpg",
+    "name": "Bolognaise"
+  },
+  {
+    "note": "5/5",
+    "description": "Sauce tomate, emmental, lardons, champignons, beurre persillé",
+    "id": "Chef",
+    "img": "pizzas/img/Chef.jpg",
+    "name": "Chef"
+  },
+  {
+    "note": "5/5",
+    "description": "Sauce tomate, emmental, jambon, chorizo, lardons",
+    "id": "Catalane",
+    "img": "pizzas/img/Catalane.jpg",
+    "name": "Catalane"
+  },
+  {
+    "note": "5/5",
+    "description": "Sauce tomate, emmental, jambon, chorizo, lardons, champignons",
+    "id": "Entraiguoise",
+    "img": "pizzas/img/Entraiguoise.jpg",
+    "name": "Entraiguoise"
+  },
+  {
+    "note": "5/5",
+    "description": "Sauce tomate, emmental, jambon, chorizo, lardons, champignons , anchois",
+    "id": "Verona",
+    "img": "pizzas/img/Verona.jpg",
+    "name": "Verona"
+  },
+  {
+    "note": "5/5",
+    "description": "Sauce tomate, emmental, champignons, poulet, crème fraîche, curry",
+    "id": "Royale Supreme",
+    "img": "pizzas/img/Royale Supreme.jpg",
+    "name": "Royale Suprême"
+  },
+  {
+    "note": "5/5",
+    "description": "Sauce tomate, emmental, champignons, jambon cru, mozzarella",
+    "id": "Roma",
+    "img": "pizzas/img/Roma.jpg",
+    "name": "Roma"
+  },
+  {
+    "note": "5/5",
+    "description": "Sauce tomate, emmental, champignons, saucisson, oignons, mozzarella, basilic",
+    "id": "Speciale",
+    "img": "pizzas/img/Speciale.jpg",
+    "name": "Spéciale"
+  },
+  {
+    "note": "5/5",
+    "description": "(nouvelle recette) Sauce tomate, emmental, bleu d’auvergne, St Nectaire, jambon cru",
+    "id": "Auvergnate",
+    "img": "pizzas/img/Auvergnate.jpg",
+    "name": "Auvergnate"
+  },
+  {
+    "note": "5/5",
+    "description": "Sauce tomate, emmental, champignons, jambon, chorizo, tranches de lard",
+    "id": "Romaine",
+    "img": "pizzas/img/Romaine.jpg",
+    "name": "Romaine"
+  },
+  {
+    "note": "5/5",
+    "description": "Sauce tomate, emmental, jambon, lardons, tomates fraîches, mozzarella, ail",
+    "id": "Aurore",
+    "img": "pizzas/img/Aurore.jpg",
+    "name": "Aurore"
+  },
+  {
+    "note": "5/5",
+    "description": "Sauce tomate, emmental, jambon, pesto",
+    "id": "Pesto",
+    "img": "pizzas/img/Pesto.jpg",
+    "name": "Pesto"
+  },
+  {
+    "note": "5/5",
+    "description": "Sauce tomate, emmental, boeuf haché, oignons, sauce barbecue, paprika",
+    "id": "Texane",
+    "img": "pizzas/img/Texane.jpg",
+    "name": "Texane"
+  },
+  {
+    "note": "5/5",
+    "description": "Sauce tomate, emmental, champignons, jambon, lardons, chorizo, fromage de chèvre",
+    "id": "Montagnarde",
+    "img": "pizzas/img/Montagnarde.jpg",
+    "name": "Montagnarde"
+  },
+  {
+    "note": "5/5",
+    "description": "Sauce tomate, emmental, champignons, lardons, jambon, chorizo, oignons, ail, oeuf, crème, poivrons",
+    "id": "Paradizzio",
+    "img": "pizzas/img/Paradizzio.jpg",
+    "name": "Paradizzio"
+  },
+  {
+    "note": "5/5",
+    "description": "Sauce tomate, emmental, champignons, chorizo, lardons, merguez, jambon, coeur d'artichaut, oignons, poivrons, mozzarella",
+    "id": "BIG",
+    "img": "pizzas/img/BIG.jpg",
+    "name": "BIG"
+  },
+  {
+    "note": "5/5",
+    "description": "Sauce tomate, emmental, chorizo, lardons, merguez, jambon, bœuf haché, oignons",
+    "id": "Rouge",
+    "img": "pizzas/img/Rouge.jpg",
+    "name": "Rouge"
+  },
+  {
+    "note": "5/5",
+    "description": "Sauce tomate, emmental, bacon, boeuf haché, cheddar, tomates fraîches, oignons, sauce hamburger",
+    "id": "Americaine",
+    "img": "pizzas/img/Americaine.jpg",
+    "name": "Américaine"
+  },
+  {
+    "note": "5/5",
+    "description": "Sauce tomate, emmental, poulet, poivrons, oignons, paprika",
+    "id": "Basquaise",
+    "img": "pizzas/img/Basquaise.jpg",
+    "name": "Basquaise"
+  },
+  {
+    "note": "5/5",
+    "description": "Purée d’oignons (maison), anchois, olive noire",
+    "id": "Pissaladiere",
+    "img": "pizzas/img/Pissaladiere.jpg",
+    "name": "Pissaladière"
+  },
+  {
+    "note": "5/5",
+    "description": "Crème fraîche, emmental, ravioles, mozzarella, parmesan",
+    "id": "Raviole",
+    "img": "pizzas/img/Raviole.jpg",
+    "name": "Raviole"
+  },
+  {
+    "note": "5/5",
+    "description": "Sauce tomate, emmental, viande kebab, tomates fraîches, oignons, sauce pitta ou sauce samouraï",
+    "id": "Kebab",
+    "img": "pizzas/img/Kebab.jpg",
+    "name": "Kebab"
+  },
+  {
+    "note": "5/5",
+    "description": "Crème moutardée, emmental, andouillette, pomme de terre",
+    "id": "Andouillette",
+    "img": "pizzas/img/Andouillette.jpg",
+    "name": "Andouillette"
+  }
+]
