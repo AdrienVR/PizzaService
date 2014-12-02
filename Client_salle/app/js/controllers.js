@@ -8,7 +8,7 @@ angular
 
     $scope.pizzas = Pizza.query();
 
-    $scope.orderProp = 'alcohol';
+    $scope.orderProp = 'note';
   }])
   .controller('PizzaDetailCtrl', ['$scope', '$routeParams', 'Pizza', function($scope, $routeParams, Pizza) {
 

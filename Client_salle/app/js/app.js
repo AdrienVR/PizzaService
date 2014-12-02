@@ -7,7 +7,7 @@ var angularPizza = angular.module('AngularPizza', [
   'PizzaControllers',
   'PizzaFilters',
   'PizzaServices',
-  'PizzaDirectives'
+  'PizzaAnimations'
 ]);
 
 angularPizza.config(['$routeProvider',
