@@ -1,4 +1,12 @@
-<img ng-src="{{mainImg}}" class="pizza">
+
+<div class="pizza-images">
+  <img ng-src="{{pizza.img}}"
+       class="pizza"
+       ng-class="{active:mainImg==pizza.img}">
+  <img ng-src="{{pizza.label}}"
+       class="pizza"
+       ng-class="{active:mainImg==pizza.label}">
+</div>
 
 <h1>{{pizza.name}}</h1>
 
@@ -16,14 +24,8 @@
 <ul class="specs">
   <li>
     <dl>
-      <dt>Note content</dt>
+      <dt>Note</dt>
       <dd>{{pizza.note | betterNote }}</dd>
-    </dl>
-  </li>
-  <li>
-    <dl>
-      <dt>Brewery</dt>
-      <dd>{{pizza.brewery}}</dd>
     </dl>
   </li>
   <li>
