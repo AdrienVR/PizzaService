@@ -1,12 +1,9 @@
 {
-"note": "5/5",
-"availability": "",
-"brewery": "",
 "description": "Sauce tomate, emmental, viande kebab, tomates fraîches, oignons, sauce pitta ou sauce samouraï",
+"comment": "",
 "id": "Kebab",
 "img": "pizzas/img/Kebab.jpg",
 "label": "pizzas/img/Kebab-label.jpg",
 "name": "Kebab",
-"serving": "hot",
-"style": "Kebab"
+"price": "12"
 }

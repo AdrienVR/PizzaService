@@ -1,12 +1,9 @@
 {
-"note": "5/5",
-"availability": "",
-"brewery": "",
 "description": "Sauce tomate, emmental, jambon, chorizo, lardons, champignons , anchois",
+"comment": "",
 "id": "Verona",
 "img": "pizzas/img/Verona.jpg",
 "label": "pizzas/img/Verona-label.jpg",
 "name": "Verona",
-"serving": "hot",
-"style": "Verona"
+"price": "12"
 }

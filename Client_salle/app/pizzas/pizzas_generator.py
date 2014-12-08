@@ -8,16 +8,13 @@ piz = pizzas.readlines()
 pizzas.close()
 
 text = """{
-"note": 
-"availability": 
-"brewery": 
 "description": 
+"comment": 
 "id": 
 "img": "pizzas/img/
 "label": "pizzas/img/
 "name": 
-"serving": 
-"style": 
+"price": 
 }"""
 
 
@@ -57,7 +54,7 @@ def getResult(ide, name, nameNorm):
         return ""
     if ide == '"note": ':
         return '"5/5",'
-    if ide in ['"availability": ','"brewery": ']:
+    if ide in ['"price": ','"brewery": ']:
         return '"",'
     if ide == '"description": ':
         return '"'+getDescription(name)+'",'
@@ -69,10 +66,10 @@ def getResult(ide, name, nameNorm):
         return nameNorm+'.jpg",'
     if ide == '"label": "pizzas/img/':
         return nameNorm + '-label.jpg",'
-    if ide == '"serving": ':
-        return '"hot",'
-    if ide == '"style": ':
-        return '"'+name+'"'
+    if ide == '"comment": ':
+        return '"",'
+    if ide == '"price": ':
+        return '"'+"12"+'"'
     print "err",name,ide
     return '"",'
     

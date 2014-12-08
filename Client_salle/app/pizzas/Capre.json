@@ -1,12 +1,9 @@
 {
-"note": "5/5",
-"availability": "",
-"brewery": "",
 "description": "Sauce tomate, anchois, câpres",
+"comment": "",
 "id": "Capre",
 "img": "pizzas/img/Capre.jpg",
 "label": "pizzas/img/Capre-label.jpg",
 "name": "Câpre",
-"serving": "hot",
-"style": "Câpre"
+"price": "12"
 }

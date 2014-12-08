@@ -1,12 +1,9 @@
 {
-"note": "5/5",
-"availability": "",
-"brewery": "",
 "description": "Sauce tomate, emmental, champignons, jambon, chorizo, tranches de lard",
+"comment": "",
 "id": "Romaine",
 "img": "pizzas/img/Romaine.jpg",
 "label": "pizzas/img/Romaine-label.jpg",
 "name": "Romaine",
-"serving": "hot",
-"style": "Romaine"
+"price": "12"
 }

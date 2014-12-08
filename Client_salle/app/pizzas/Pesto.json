@@ -1,12 +1,9 @@
 {
-"note": "5/5",
-"availability": "",
-"brewery": "",
 "description": "Sauce tomate, emmental, jambon, pesto",
+"comment": "",
 "id": "Pesto",
 "img": "pizzas/img/Pesto.jpg",
 "label": "pizzas/img/Pesto-label.jpg",
 "name": "Pesto",
-"serving": "hot",
-"style": "Pesto"
+"price": "12"
 }

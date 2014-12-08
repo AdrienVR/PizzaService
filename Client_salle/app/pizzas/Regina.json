@@ -1,12 +1,9 @@
 {
-"note": "5/5",
-"availability": "",
-"brewery": "",
 "description": "Sauce tomate, emmental, jambon, champignons",
+"comment": "",
 "id": "Regina",
 "img": "pizzas/img/Regina.jpg",
 "label": "pizzas/img/Regina-label.jpg",
 "name": "Regina",
-"serving": "hot",
-"style": "Regina"
+"price": "12"
 }

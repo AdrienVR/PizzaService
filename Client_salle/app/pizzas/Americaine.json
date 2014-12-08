@@ -1,12 +1,9 @@
 {
-"note": "5/5",
-"availability": "",
-"brewery": "",
 "description": "Sauce tomate, emmental, bacon, boeuf haché, cheddar, tomates fraîches, oignons, sauce hamburger",
+"comment": "",
 "id": "Americaine",
 "img": "pizzas/img/Americaine.jpg",
 "label": "pizzas/img/Americaine-label.jpg",
 "name": "Américaine",
-"serving": "hot",
-"style": "Américaine"
+"price": "12"
 }

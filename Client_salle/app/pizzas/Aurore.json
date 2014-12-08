@@ -1,12 +1,9 @@
 {
-"note": "5/5",
-"availability": "",
-"brewery": "",
 "description": "Sauce tomate, emmental, jambon, lardons, tomates fraîches, mozzarella, ail",
+"comment": "",
 "id": "Aurore",
 "img": "pizzas/img/Aurore.jpg",
 "label": "pizzas/img/Aurore-label.jpg",
 "name": "Aurore",
-"serving": "hot",
-"style": "Aurore"
+"price": "12"
 }

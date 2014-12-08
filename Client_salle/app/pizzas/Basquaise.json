@@ -1,12 +1,9 @@
 {
-"note": "5/5",
-"availability": "",
-"brewery": "",
 "description": "Sauce tomate, emmental, poulet, poivrons, oignons, paprika",
+"comment": "",
 "id": "Basquaise",
 "img": "pizzas/img/Basquaise.jpg",
 "label": "pizzas/img/Basquaise-label.jpg",
 "name": "Basquaise",
-"serving": "hot",
-"style": "Basquaise"
+"price": "12"
 }

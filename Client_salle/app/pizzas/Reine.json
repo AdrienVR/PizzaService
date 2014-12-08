@@ -1,12 +1,9 @@
 {
-"note": "5/5",
-"availability": "",
-"brewery": "",
 "description": "Sauce tomate, emmental, jambon",
+"comment": "",
 "id": "Reine",
 "img": "pizzas/img/Reine.jpg",
 "label": "pizzas/img/Reine-label.jpg",
 "name": "Reine",
-"serving": "hot",
-"style": "Reine"
+"price": "12"
 }

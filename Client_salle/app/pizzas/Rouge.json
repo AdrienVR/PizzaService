@@ -1,12 +1,9 @@
 {
-"note": "5/5",
-"availability": "",
-"brewery": "",
 "description": "Sauce tomate, emmental, chorizo, lardons, merguez, jambon, bœuf haché, oignons",
+"comment": "",
 "id": "Rouge",
 "img": "pizzas/img/Rouge.jpg",
 "label": "pizzas/img/Rouge-label.jpg",
 "name": "Rouge",
-"serving": "hot",
-"style": "Rouge"
+"price": "12"
 }
