@@ -1,0 +1,9 @@
+{
+"description": "Crème moutardée, emmental, andouillette, pomme de terre",
+"comment": "",
+"id": "Andouillette",
+"img": "pizzas/img/Andouillette.jpg",
+"label": "pizzas/img/Andouillette-label.jpg",
+"name": "Andouillette",
+"price": "12"
+}

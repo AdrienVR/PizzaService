@@ -1,0 +1,9 @@
+{
+"description": "Crème fraîche, emmental, ravioles, mozzarella, parmesan",
+"comment": "",
+"id": "Raviole",
+"img": "pizzas/img/Raviole.jpg",
+"label": "pizzas/img/Raviole-label.jpg",
+"name": "Raviole",
+"price": "12"
+}

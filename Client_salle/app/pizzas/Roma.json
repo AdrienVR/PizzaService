@@ -1,0 +1,9 @@
+{
+"description": "Sauce tomate, emmental, champignons, jambon cru, mozzarella",
+"comment": "",
+"id": "Roma",
+"img": "pizzas/img/Roma.jpg",
+"label": "pizzas/img/Roma-label.jpg",
+"name": "Roma",
+"price": "12"
+}

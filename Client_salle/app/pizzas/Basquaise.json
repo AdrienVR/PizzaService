@@ -1,0 +1,9 @@
+{
+"description": "Sauce tomate, emmental, poulet, poivrons, oignons, paprika",
+"comment": "",
+"id": "Basquaise",
+"img": "pizzas/img/Basquaise.jpg",
+"label": "pizzas/img/Basquaise-label.jpg",
+"name": "Basquaise",
+"price": "12"
+}

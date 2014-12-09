@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.vertx:testtools:2.0.3-final">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/testtools/2.0.3-final/ac2f1d3f3ff3e2c6acf0b7501f2322f5eee96a23/testtools-2.0.3-final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.vertx/testtools/2.0.3-final/1f7ed4d3c01c6346dd2c59c43456dbb73d63bab1/testtools-2.0.3-final-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

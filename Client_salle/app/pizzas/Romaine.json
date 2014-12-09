@@ -1,0 +1,9 @@
+{
+"description": "Sauce tomate, emmental, champignons, jambon, chorizo, tranches de lard",
+"comment": "",
+"id": "Romaine",
+"img": "pizzas/img/Romaine.jpg",
+"label": "pizzas/img/Romaine-label.jpg",
+"name": "Romaine",
+"price": "12"
+}

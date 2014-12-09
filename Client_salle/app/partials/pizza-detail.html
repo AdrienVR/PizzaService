@@ -1,0 +1,31 @@
+
+<div class="pizza-images">
+  <img ng-src="{{pizza.img}}"
+       class="pizza"
+       ng-class="{active:mainImg==pizza.img}">
+  <img ng-src="{{pizza.label}}"
+       class="pizza"
+       ng-class="{active:mainImg==pizza.label}">
+</div>
+
+<h1>{{pizza.name}}</h1>
+
+<p>{{pizza.description}}</p>
+
+<ul class="pizza-thumbs">
+  <li>
+    <img ng-src="{{pizza.img}}" ng-click="setImage(pizza.img)">
+  </li>
+  <li>
+    <img ng-src="{{pizza.label}}" ng-click="setImage(pizza.label)"> 
+  </li>
+</ul>
+
+<ul class="specs">
+  <li>
+    <dl>
+      <dt>Price</dt>
+      <dd>{{pizza.price}}</dd>
+    </dl>
+  </li>
+</ul>

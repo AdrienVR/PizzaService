@@ -1,0 +1,9 @@
+{
+"description": "Sauce tomate, emmental, anchois",
+"comment": "",
+"id": "Anchois",
+"img": "pizzas/img/Anchois.jpg",
+"label": "pizzas/img/Anchois-label.jpg",
+"name": "Anchois",
+"price": "12"
+}

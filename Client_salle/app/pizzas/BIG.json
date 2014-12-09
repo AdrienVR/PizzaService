@@ -1,0 +1,9 @@
+{
+"description": "Sauce tomate, emmental, champignons, chorizo, lardons, merguez, jambon, coeur d'artichaut, oignons, poivrons, mozzarella",
+"comment": "",
+"id": "BIG",
+"img": "pizzas/img/BIG.jpg",
+"label": "pizzas/img/BIG-label.jpg",
+"name": "BIG",
+"price": "12"
+}

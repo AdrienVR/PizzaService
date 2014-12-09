@@ -1,0 +1,9 @@
+{
+"description": "Sauce tomate, emmental, champignons, saucisson, oignons, mozzarella, basilic",
+"comment": "",
+"id": "Speciale",
+"img": "pizzas/img/Speciale.jpg",
+"label": "pizzas/img/Speciale-label.jpg",
+"name": "Spéciale",
+"price": "12"
+}
