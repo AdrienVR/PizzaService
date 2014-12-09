@@ -1,16 +1,13 @@
 Client cuisine
 ============
 
+Florian is working here.
+
 C'est la partie du projet qui réalise l'application pour le pizzaïlo de la pizzeria.   
 Le pizzaïolo reçoit les commandes à traiter en temps-réel sur son appli.
 
 Application Web avec Angular + Bootstrap  
-http://nodejs.org/download/   
-http://getbootstrap.com/getting-started/#download   
- 
-
-Exemples à cette adresse :   
-http://bootsnipp.com/resources
+http://nodejs.org/download/    
 
 ##TODO :   
 
