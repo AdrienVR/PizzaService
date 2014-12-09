@@ -10,6 +10,15 @@
           <option value="note">Note</option>
         </select>
 
+        Panier:
+        <li ng-repeat="pizz in panier track by $index">
+          <a href="#/pizzas/{{pizza.id}}">{{pizz.name}} {{pizz.comment}}</a>
+          <!--<button ng-click="removePizza()">Annuler</button>-->
+        </li>
+
+        <button>Commander !</button>
+
+
       </div>
       <div class="col-md-10">
         <!--Body content-->
@@ -18,13 +27,13 @@
             <a href="#/pizzas/{{pizza.id}}" class="thumb"><img ng-src="{{pizza.img}}"></a>
             <a href="#/pizzas/{{pizza.id}}">{{pizza.name}}</a>
             <p>{{pizza.description}}</p>
-			<form name="pizzaSelection"> Sélectionner : <input type="checkbox"> </form>
             <form name="numberOfPizza">
               Nombre : <input type="number" name="input" ng-model="value"
                              min="0" max="999" required>
             </form>
+            <input type="text" name="comment" ng-model="comment"</input>
+            <button ng-click="addPizza(pizza,comment,value)">Ajouter a la commande</button>
           </li>
         </ul>
-		<button>Commander !</button>
       </div>
     </div>
