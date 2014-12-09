@@ -1,12 +1,9 @@
-Verticle
-============
+# Vert.x Example Maven Project
 
-C'est la partie du projet la plus intéressante :   
-Serveur : Gestion de la base de donnée et de la communication avec les applications clientes.
+Example project for creating a Vert.x module with a Gradle build.
 
-Vert.x : http://vertx.io/downloads.html 
-Mongo : http://www.mongodb.org/downloads
+By default this module contains a simple Java verticle which listens on the event bus and responds to `ping!`
+messages with `pong!`.
 
-##TODO :   
+This example also shows you how to write tests in Java, Groovy, Ruby and Python
 
-* Worker
