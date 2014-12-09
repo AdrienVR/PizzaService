@@ -8,29 +8,35 @@ angular
 
     $scope.pizzas = Pizza.query();
 
-    $scope.orderProp = 'note';
+    $scope.orderProp = 'name';
 
     $scope.panier=[];
 
-    //$scope.index=0;
+    $scope.order={};
 
-    $scope.addPizza=function(pizza,comment,number){
+    $scope.addPizza=function(pizza,comment){
       var local=$scope.$new(true);
       console.log(pizza);
       console.log(comment);
-      //pizza.comment=comment;
       local.pizza=angular.fromJson(pizza);
-
-      //local.pizza=local.pizza.concat(pizza);
-      //local.pizza.comment=comment;
       $scope.panier=$scope.panier.concat(local.pizza);
       console.log($scope.panier);
     }
 
-    /*$scope.removePizza=function(pizza){
-      $scope.panier.pop()
+    $scope.removePizza=function(index){
+      console.log(index);
+      $scope.panier.splice(index,1);
       console.log($scope.panier);
-    }*/
+    }
+
+    $scope.placeOrder=function(table){
+      $scope.order.table=table;//$scope.order.concat([{table:table}]);
+      $scope.order.panier=$scope.panier;//$scope.order.concat($scope.panier);
+      $scope.order=angular.toJson($scope.order)
+      console.log("commande:",$scope.order);
+      $scope.panier=[];
+      $scope.order=[];
+    }
   }])
   .controller('PizzaDetailCtrl', ['$scope', '$routeParams', 'Pizza', function($scope, $routeParams, Pizza) {
 
