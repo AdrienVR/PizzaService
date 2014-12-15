@@ -1,22 +1,6 @@
 # -*- coding:utf-8 -*-
 ## Adrien Vernotte
-## Generates pizzas img
-
-import os, shutil
-    
-a=open("list.txt")
-listPiz = a.readlines()
-a.close()
-
-def copy_rename(old_file_name, new_file_name):
-        src_dir= os.curdir
-        dst_dir= os.path.join(os.curdir , "img")
-        src_file = os.path.join(src_dir, old_file_name)
-        shutil.copy(src_file,dst_dir)
-        
-        dst_file = os.path.join(dst_dir, old_file_name)
-        new_dst_file_name = os.path.join(dst_dir, new_file_name)
-        os.rename(dst_file, new_dst_file_name)
+## Generates the pizza list JSON file for all pizza
 
 def getNameWithoutAccents(name):
         codecs=["utf-8","ISO-8859-15","utf-16",""]
@@ -38,16 +22,34 @@ def getNameWithoutAccents(name):
                 break
             except:
                 pass
-        return name
+        return name    
+    
+a=open("list.txt")
+listPiz = a.readlines()
+a.close()
+
+a = open("caca.json","w")
+a.write("""[
+""")
 
 for pizza in listPiz:
-    pizza = pizza.split("\n")[0]
-    pizzaNorm = getNameWithoutAccents(pizza)
-    try:
-        copy_rename("label.jpg", pizzaNorm+"-label.jpg")
-        copy_rename("img.jpg", pizzaNorm+".jpg")
-    except Exception, e:
-        print pizza, e
+    pizzaNorm = pizza.split("\n")[0]
+    pizzaNorm = getNameWithoutAccents(pizzaNorm)
+    b = open(pizzaNorm+".json")
+    lines = b.readlines()
+    b.close()
+    for i in lines:
+            if i == lines[-1]:
+                    a.write(i.strip())
+            else:
+                    a.write(i)
+    if pizza != listPiz[-1]:
+            a.write(",\n")
+
+a.write("""
+]
+""")
+a.close()
 
 
     
