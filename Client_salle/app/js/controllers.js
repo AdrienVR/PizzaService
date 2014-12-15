@@ -4,7 +4,7 @@
 
 angular
   .module('PizzaControllers', [])
-  .controller('PizzaListCtrl', ['$scope', 'Pizza', function($scope, Pizza) {
+  .controller('PizzaListCtrl', ['$scope', '$http', 'Pizza', function($scope,$http,Pizza) {
 
     $scope.pizzas = Pizza.query();
 
@@ -32,8 +32,9 @@ angular
     $scope.placeOrder=function(table){
       $scope.order.table=table;//$scope.order.concat([{table:table}]);
       $scope.order.panier=$scope.panier;//$scope.order.concat($scope.panier);
-      $scope.order=angular.toJson($scope.order)
+      $scope.order=angular.toJson($scope.order);
       console.log("commande:",$scope.order);
+      $http.post('http://localhost:8001/addingOrder/?json:'+$scope.order);
       $scope.panier=[];
       $scope.order=[];
     }
