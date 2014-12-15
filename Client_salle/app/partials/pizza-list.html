@@ -1,39 +1,60 @@
-    <div class="row">
-      <div class="col-md-2">
+<div class="row">
+    <div class="col-md-2">
         <!--Sidebar content-->
 
         Search: <input ng-model="query">
-
+        </br>
+        </br>
         Sort by:
         <select ng-model="orderProp">
-          <option value="name">Alphabetical</option>
-          <option value="note">Note</option>
+            <option value="name">Alphabetical</option>
+            <option value="note">Note</option>
         </select>
-
+        </br>
+        </br>
         Panier:
-        <li ng-repeat="pizz in panier track by $index">
-          <a href="#/pizzas/{{pizza.id}}">{{pizz.name}} {{pizz.comment}}</a>
-          <button ng-click="removePizza($index)">Annuler</button>
-        </li>
-
+        <ul ng-repeat="pizz in panier track by $index">
+            <a href="#/pizzas/{{pizza.id}}">{{pizz.name}} {{pizz.comment}}</a>
+            <button ng-click="removePizza($index)" class="btn btn-sm btn-danger">x</button>
+        </ul>
+        </br>
         <form name="numberOfPizza">
             table : <input type="number" name="input" ng-model="value"
                            min="0" max="40" required>
-            </form>
-        <button ng-click="placeOrder(value)">Commander !</button>
+        </form></br>
+        <button ng-click="placeOrder(value)" class="btn btn-sm btn-success">Commander !</button></br>
 
 
-      </div>
-      <div class="col-md-10">
+    </div>
+    <div class="col-md-10">
         <!--Body content-->
         <ul class="pizzas">
-          <li ng-repeat="pizza in pizzas | filter:query | orderBy:orderProp" class="thumbnail pizza-listing">
-            <a href="#/pizzas/{{pizza.id}}" class="thumb"><img ng-src="{{pizza.img}}"></a>
-            <a href="#/pizzas/{{pizza.id}}">{{pizza.name}}</a>
-            <p>{{pizza.description}}</p>
-            <input type="text" name="comment" placeholder="Commentaires" ng-model="comment"</input>
-            <button ng-click="addPizza(pizza,comment)">Ajouter a la commande</button>
-          </li>
+            <li ng-repeat="pizza in pizzas | filter:query | orderBy:orderProp" class="thumbnail pizza-listing">
+                <a href="#/pizzas/{{pizza.id}}" class="thumb"><img ng-src="{{pizza.img}}"></a>
+                <a href="#/pizzas/{{pizza.id}}">{{pizza.name}}</a>
+                <p>{{pizza.description}}</p>
+                <input type="text" name="comment" placeholder="Commentaires" ng-model="comment">
+                <button ng-click="addPizza(pizza,comment)" class="btn btn-sm btn-default">Ajouter a la commande</button>
+            </li>
         </ul>
-      </div>
     </div>
+</div>
+
+
+<script type="text/javascript">
+
+    WebFontConfig = {
+        google: { families: [ 'Source+Sans+Pro:300,400,600:latin,latin-ext' ] }
+    };
+    (function() {
+        var wf = document.createElement('script');
+        wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+                '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+        wf.type = 'text/javascript';
+        wf.async = 'true';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(wf, s);
+    })();
+</script>
+
+</html>

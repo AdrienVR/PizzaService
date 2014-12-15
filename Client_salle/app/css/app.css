@@ -2,6 +2,8 @@
 
 body {
   padding-top: 20px;
+  background-color: lightgray;
+  font-family: Verdana ;
 }
 
 
@@ -16,6 +18,8 @@ body {
 
 .pizzas {
   list-style: none;
+  background-color: #f7f7f7;
+  font-family: Verdana ;
 }
 
 .thumb {
@@ -24,12 +28,16 @@ body {
   padding-bottom: 1em;
   height: 100px;
   width: 100px;
+  background-color: lightgray;
+  font-family: Verdana ;
 }
 
 .pizzas li {
   clear: both;
   height: 115px;
   padding-top: 15px;
+  background-color: lightgray;
+  font-family: Verdana ;
 }
 
 /** Detail View **/
@@ -46,29 +54,32 @@ img.pizza {
 
 img.pizza:first-child {
   display: block;
+  font-family: Verdana ;
 }
 
 
 ul.pizza-thumbs {
   margin: 0;
   list-style: none;
+  font-family: Verdana ;
 }
 
 ul.pizza-thumbs li {
   border: 1px solid black;
   display: inline-block;
   margin: 1em;
-  background-color: white;
 }
 
 ul.pizza-thumbs img {
   height: 100px;
   width: 100px;
   padding: 1em;
+  font-family: Verdana ;
 }
 
 ul.pizza-thumbs img:hover {
   cursor: pointer;
+  font-family: Verdana ;
 }
 
 
@@ -76,24 +87,31 @@ ul.specs {
   clear: both;
   margin: 0;
   padding: 0;
-  list-style: none;
+  list-style: none;  
+  font-family: Verdana ;
 }
 
 ul.specs > li{
   display: inline-block;
   width: 200px;
   vertical-align: top;
+  font-family: Verdana ;
 }
 
 ul.specs > li > span{
   font-weight: bold;
   font-size: 1.2em;
+  font-family: Verdana ;
 }
 
 ul.specs dt {
   font-weight: bold;
+  background-color: lightgray;
+  font-family: Verdana ;
 }
 
 h1 {
   border-bottom: 1px solid gray;
+  background-color: lightgray;
+  font-family: Verdana ;
 }
