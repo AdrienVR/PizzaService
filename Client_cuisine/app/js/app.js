@@ -4,6 +4,7 @@
 
 var angularPizza = angular.module('AngularPizza', [
   'ngRoute',
+  'ngResource',
   'PizzaControllers',
 
   'PizzaServices'
