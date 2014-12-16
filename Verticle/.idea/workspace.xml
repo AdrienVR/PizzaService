@@ -2,16 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9de5615-4f93-49ef-9d48-88bb9beb9266" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/org/smartjava/integration/java/BasicIntegrationTest$1$1.class" afterPath="$PROJECT_DIR$/target/test-classes/org/smartjava/integration/java/BasicIntegrationTest$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/org/smartjava/integration/java/BasicIntegrationTest$1.class" afterPath="$PROJECT_DIR$/target/test-classes/org/smartjava/integration/java/BasicIntegrationTest$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/org/smartjava/integration/java/BasicIntegrationTest$2.class" afterPath="$PROJECT_DIR$/target/test-classes/org/smartjava/integration/java/BasicIntegrationTest$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/org/smartjava/integration/java/BasicIntegrationTest$3.class" afterPath="$PROJECT_DIR$/target/test-classes/org/smartjava/integration/java/BasicIntegrationTest$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/org/smartjava/integration/java/BasicIntegrationTest.class" afterPath="$PROJECT_DIR$/target/test-classes/org/smartjava/integration/java/BasicIntegrationTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/org/smartjava/integration/java/ModuleIntegrationTest$1.class" afterPath="$PROJECT_DIR$/target/test-classes/org/smartjava/integration/java/ModuleIntegrationTest$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/org/smartjava/integration/java/ModuleIntegrationTest$2.class" afterPath="$PROJECT_DIR$/target/test-classes/org/smartjava/integration/java/ModuleIntegrationTest$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/org/smartjava/integration/java/ModuleIntegrationTest.class" afterPath="$PROJECT_DIR$/target/test-classes/org/smartjava/integration/java/ModuleIntegrationTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/smartjava/PingVerticle$1.class" afterPath="$PROJECT_DIR$/target/classes/org/smartjava/PingVerticle$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/mods/org.smartjava~vertx-demo-1~1.0-SNAPSHOT/org/smartjava/PingVerticle$1.class" afterPath="$PROJECT_DIR$/target/mods/org.smartjava~vertx-demo-1~1.0-SNAPSHOT/org/smartjava/PingVerticle$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/smartjava/PingVerticle$2.class" afterPath="$PROJECT_DIR$/target/classes/org/smartjava/PingVerticle$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/mods/org.smartjava~vertx-demo-1~1.0-SNAPSHOT/org/smartjava/PingVerticle$2.class" afterPath="$PROJECT_DIR$/target/mods/org.smartjava~vertx-demo-1~1.0-SNAPSHOT/org/smartjava/PingVerticle$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/smartjava/PingVerticle$3.class" afterPath="$PROJECT_DIR$/target/classes/org/smartjava/PingVerticle$3.class" />
@@ -26,22 +16,10 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/mods/org.smartjava~vertx-demo-1~1.0-SNAPSHOT/org/smartjava/PingVerticle$7.class" afterPath="$PROJECT_DIR$/target/mods/org.smartjava~vertx-demo-1~1.0-SNAPSHOT/org/smartjava/PingVerticle$7.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/smartjava/PingVerticle.class" afterPath="$PROJECT_DIR$/target/classes/org/smartjava/PingVerticle.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/mods/org.smartjava~vertx-demo-1~1.0-SNAPSHOT/org/smartjava/PingVerticle.class" afterPath="$PROJECT_DIR$/target/mods/org.smartjava~vertx-demo-1~1.0-SNAPSHOT/org/smartjava/PingVerticle.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/smartjava/ReplyHandler.class" afterPath="$PROJECT_DIR$/target/classes/org/smartjava/ReplyHandler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/mods/org.smartjava~vertx-demo-1~1.0-SNAPSHOT/org/smartjava/ReplyHandler.class" afterPath="$PROJECT_DIR$/target/mods/org.smartjava~vertx-demo-1~1.0-SNAPSHOT/org/smartjava/ReplyHandler.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/smartjava/ReplyHandlerBill.class" afterPath="$PROJECT_DIR$/target/classes/org/smartjava/ReplyHandlerBill.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/mods/org.smartjava~vertx-demo-1~1.0-SNAPSHOT/org/smartjava/ReplyHandlerBill.class" afterPath="$PROJECT_DIR$/target/mods/org.smartjava~vertx-demo-1~1.0-SNAPSHOT/org/smartjava/ReplyHandlerBill.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/smartjava/ReplyHandlerLogin.class" afterPath="$PROJECT_DIR$/target/classes/org/smartjava/ReplyHandlerLogin.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/mods/org.smartjava~vertx-demo-1~1.0-SNAPSHOT/org/smartjava/ReplyHandlerLogin.class" afterPath="$PROJECT_DIR$/target/mods/org.smartjava~vertx-demo-1~1.0-SNAPSHOT/org/smartjava/ReplyHandlerLogin.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/vertx-demo-1-1.0-SNAPSHOT-mod.zip" afterPath="$PROJECT_DIR$/target/vertx-demo-1-1.0-SNAPSHOT-mod.zip" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/vertx-demo-1-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/vertx-demo-1-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Client_salle/app/js/controllers.js" afterPath="$PROJECT_DIR$/../Client_salle/app/js/controllers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/mods/io.vertx~mod-mongo-persistor~2.1.0/mod.json" afterPath="$PROJECT_DIR$/target/mods/io.vertx~mod-mongo-persistor~2.1.0/mod.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/smartjava/PingVerticle.java" afterPath="$PROJECT_DIR$/src/main/java/org/smartjava/PingVerticle.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/site/surefire-report.html" afterPath="$PROJECT_DIR$/target/site/surefire-report.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Client_salle/app/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Client_salle/app/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Verticle.iws" />
@@ -82,8 +60,8 @@
       <file leaf-file-name="PingVerticle.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/smartjava/PingVerticle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.9749477" vertical-offset="2142" max-vertical-offset="3536">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.3966597" vertical-offset="2411" max-vertical-offset="3553">
+              <caret line="153" column="53" selection-start-line="153" selection-start-column="53" selection-end-line="153" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -452,6 +430,7 @@
       <list>
         <option value="$PROJECT_DIR$/conf.json" />
         <option value="$PROJECT_DIR$/gradle.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/org/smartjava/PingVerticle.java" />
       </list>
     </option>
   </component>
@@ -881,12 +860,12 @@
       <workItem from="1418729299747" duration="215000" />
       <workItem from="1418729557329" duration="150000" />
       <workItem from="1418729742540" duration="990000" />
-      <workItem from="1418730828664" duration="112000" />
+      <workItem from="1418730828664" duration="1477000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8939000" />
+    <option name="totallyTimeSpent" value="10304000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1050,8 +1029,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/smartjava/PingVerticle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.9749477" vertical-offset="2142" max-vertical-offset="3536">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.3966597" vertical-offset="2411" max-vertical-offset="3553">
+          <caret line="153" column="53" selection-start-line="153" selection-start-column="53" selection-end-line="153" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

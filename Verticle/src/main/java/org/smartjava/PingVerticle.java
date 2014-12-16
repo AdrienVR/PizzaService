@@ -47,11 +47,12 @@ public class PingVerticle extends Verticle
     // the matcher for the complete list of orders
     matcher.get("/orders", new Handler<HttpServerRequest>() {
       public void handle(final HttpServerRequest req) {
-
+        JsonObject match = new JsonObject()
+                .putString("status", "en cours");
         // create the query
         JsonObject json = new JsonObject().putString("collection", "orders")
                 .putString("action", "find")
-                .putObject("matcher", new JsonObject());
+                .putObject("matcher", new JsonObject());//match);
 
         JsonObject data = new JsonObject();
         data.putArray("results", new JsonArray());
@@ -68,7 +69,7 @@ public class PingVerticle extends Verticle
         MultiMap params = req.params();
 
         if (params.size() == 1 && params.contains("table")) {
-          JsonObject matcher = new JsonObject();
+
 
           // create the query
           JsonObject match = new JsonObject()
