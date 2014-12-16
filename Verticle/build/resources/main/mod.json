@@ -1,4 +1,0 @@
-{
-  "main": "com.enib.cai.vertx.verticle.EntryPointVerticle",
-  "auto-redeploy": true
-}

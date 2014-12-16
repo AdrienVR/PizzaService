@@ -33,9 +33,9 @@ public class ReplyHandler implements Handler<Message<JsonObject>> {
             for (Object el : results) {
                 data.getArray("results").add(el);
             }
-
+            JsonArray j=data.getArray("results");
             request.response().putHeader("Content-Type", "application/json");
-            request.response().end(data.encodePrettily());
+            request.response().end(j.encodePrettily());
         }
     }
 }

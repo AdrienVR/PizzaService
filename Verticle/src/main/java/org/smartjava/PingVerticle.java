@@ -7,6 +7,7 @@ import org.vertx.java.core.http.RouteMatcher;
 import org.vertx.java.core.json.JsonArray;
 import org.vertx.java.core.json.JsonObject;
 import org.vertx.java.platform.Verticle;
+import java.util.Date;
 
 
 public class PingVerticle extends Verticle
@@ -27,7 +28,7 @@ public class PingVerticle extends Verticle
 
 
     // the matcher for the complete list of pizzas
-    matcher.get("/carte", new Handler<HttpServerRequest>() {
+    matcher.get("/pizzas", new Handler<HttpServerRequest>() {
       public void handle(final HttpServerRequest req) {
 
           // create the query
@@ -40,6 +41,51 @@ public class PingVerticle extends Verticle
 
         // and call the event we want to use
         vertx.eventBus().send("mongodb-persistor", json, new ReplyHandler(req, data));
+      }
+    });
+
+    // the matcher for the complete list of orders
+    matcher.get("/orders", new Handler<HttpServerRequest>() {
+      public void handle(final HttpServerRequest req) {
+
+        // create the query
+        JsonObject json = new JsonObject().putString("collection", "orders")
+                .putString("action", "find")
+                .putObject("matcher", new JsonObject());
+
+        JsonObject data = new JsonObject();
+        data.putArray("results", new JsonArray());
+
+        // and call the event we want to use
+        vertx.eventBus().send("mongodb-persistor", json, new ReplyHandler(req, data));
+      }
+    });
+
+    // the matcher for the complete list of orders
+    matcher.get("/getBill", new Handler<HttpServerRequest>() {
+      public void handle(final HttpServerRequest req) {
+
+        MultiMap params = req.params();
+
+        if (params.size() == 1 && params.contains("table")) {
+          JsonObject matcher = new JsonObject();
+
+          // create the query
+          JsonObject match = new JsonObject()
+                  .putNumber("table", Float.parseFloat(params.get("table")))
+                  .putString("status", "preparee");
+          JsonObject json = new JsonObject().putString("collection", "orders")
+                  .putString("action", "find")
+                  .putObject("matcher", match);
+
+          JsonObject data = new JsonObject();
+          data.putArray("results", new JsonArray());
+
+          // and call the event we want to use
+          vertx.eventBus().send("mongodb-persistor", json, new ReplyHandlerBill(req, data));
+        } else
+          req.response().end("get Bill failed : bad request");
+
       }
     });
 
@@ -93,11 +139,64 @@ public class PingVerticle extends Verticle
       }
     });
 
+    // the matcher for adding Order
+    // request example :
+    // curl -X POST -d @rien "http://localhost:8888/addingOrder?json=???"
+    matcher.get("/addingOrder", new Handler<HttpServerRequest>() {
+      public void handle(final HttpServerRequest req) {
+
+        MultiMap params = req.params();
+
+        // create the query
+        if (params.size() == 1 && params.contains("json")) {
+          String stringdoc = params.get("json");
+          JsonObject doc = new JsonObject(stringdoc);
+          Date date = new Date();
+          String randomId = Long.toString(date.getTime());
+          doc.putString("status", "en cours")
+                  .putString("date", date.toString())
+                  .putString("_id", randomId);
+          JsonObject json = new JsonObject().putString("collection", "orders")
+                  .putString("action", "save")
+                  .putObject("document", doc);
+          // and call the event we want to use
+          vertx.eventBus().send("mongodb-persistor", json);
+          req.response().end("adding order successfull");
+        } else
+          req.response().end("adding order failed : bad request");
+      }
+    });
+
+// the matcher for changing Order Status
+    matcher.get("/changingOrderStatus", new Handler<HttpServerRequest>() {
+      public void handle(final HttpServerRequest req) {
+
+        MultiMap params = req.params();
+
+        // create the query
+        if (params.size() == 2 && params.contains("id") && params.contains("status")) {
+          JsonObject crit = new JsonObject().putString("_id", params.get("id"));
+          JsonObject nObj = new JsonObject().putObject("$set", new JsonObject().putString("status", params.get("status")));
+                  //.putString("details", params.get("status")));
+          JsonObject json = new JsonObject().putString("collection", "orders")
+                  .putString("action", "update")
+                  .putObject("criteria", crit)
+                  .putObject("objNew", nObj)//new JsonObject().putString("status",params.get("status"))
+                  .putBoolean("upsert", false)
+                  .putBoolean("multi", false);
+          // and call the event we want to use
+          vertx.eventBus().send("mongodb-persistor", json);
+          req.response().end("changing order status successfull");
+        } else
+          req.response().end("changing order status failed : bad request");
+      }
+    });
+
     // create and run the server
-    vertx.createHttpServer().requestHandler(matcher).listen(8888);
+    vertx.createHttpServer().requestHandler(matcher).listen(8001);
 
     // output that the server is started
-    container.logger().info("Webserver started, listening on port: 8888");
+    container.logger().info("Webserver started, listening on port: 8001");
   }
 
 }

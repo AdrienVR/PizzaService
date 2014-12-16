@@ -1,6 +1,11 @@
 org/smartjava/PingVerticle$3.class
-org/smartjava/ReplyHandlerLogin.class
+org/smartjava/PingVerticle$7.class
+org/smartjava/PingVerticle$6.class
+org/smartjava/PingVerticle$4.class
 org/smartjava/ReplyHandler.class
-org/smartjava/PingVerticle$2.class
+org/smartjava/PingVerticle$5.class
 org/smartjava/PingVerticle.class
+org/smartjava/ReplyHandlerLogin.class
+org/smartjava/ReplyHandlerBill.class
+org/smartjava/PingVerticle$2.class
 org/smartjava/PingVerticle$1.class
