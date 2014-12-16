@@ -1,0 +1,9 @@
+{
+"description": "Sauce tomate, emmental",
+"comment": "",
+"id": "Fromage",
+"img": "pizzas/img/Fromage.jpg",
+"label": "pizzas/img/Fromage-label.jpg",
+"name": "Fromage",
+"price": "12"
+}

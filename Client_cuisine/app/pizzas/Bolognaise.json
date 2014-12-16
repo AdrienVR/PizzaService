@@ -1,0 +1,9 @@
+{
+"description": "Sauce tomate, emmental, bœuf haché, parmesan, oignons",
+"comment": "",
+"id": "Bolognaise",
+"img": "pizzas/img/Bolognaise.jpg",
+"label": "pizzas/img/Bolognaise-label.jpg",
+"name": "Bolognaise",
+"price": "12"
+}

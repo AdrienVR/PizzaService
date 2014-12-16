@@ -1,0 +1,9 @@
+{
+"description": "Sauce tomate, emmental, jambon, pesto",
+"comment": "",
+"id": "Pesto",
+"img": "pizzas/img/Pesto.jpg",
+"label": "pizzas/img/Pesto-label.jpg",
+"name": "Pesto",
+"price": "12"
+}

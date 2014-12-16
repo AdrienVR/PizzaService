@@ -1,0 +1,9 @@
+{
+"description": "Sauce tomate, emmental, viande kebab, tomates fraîches, oignons, sauce pitta ou sauce samouraï",
+"comment": "",
+"id": "Kebab",
+"img": "pizzas/img/Kebab.jpg",
+"label": "pizzas/img/Kebab-label.jpg",
+"name": "Kebab",
+"price": "12"
+}

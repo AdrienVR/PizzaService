@@ -1,0 +1,9 @@
+{
+"description": "Sauce tomate, emmental, jambon, champignons, mozzarella",
+"comment": "",
+"id": "Napoli",
+"img": "pizzas/img/Napoli.jpg",
+"label": "pizzas/img/Napoli-label.jpg",
+"name": "Napoli",
+"price": "12"
+}

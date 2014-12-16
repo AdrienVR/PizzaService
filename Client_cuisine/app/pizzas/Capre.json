@@ -1,0 +1,9 @@
+{
+"description": "Sauce tomate, anchois, câpres",
+"comment": "",
+"id": "Capre",
+"img": "pizzas/img/Capre.jpg",
+"label": "pizzas/img/Capre-label.jpg",
+"name": "Câpre",
+"price": "12"
+}
