@@ -1,7 +1,7 @@
 'use strict';
 
 /* Pizza-list js button */
-WebFontConfig = {
+var WebFontConfig = {
     google: { families: [ 'Source+Sans+Pro:300,400,600:latin,latin-ext' ] }
 };
 (function() {

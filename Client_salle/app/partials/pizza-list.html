@@ -8,7 +8,6 @@
         Sort by:
         <select ng-model="orderProp">
             <option value="name">Alphabetical</option>
-            <option value="note">Note</option>
         </select>
         </br>
         </br>
@@ -19,11 +18,11 @@
         </ul>
         </br>
         <form name="numberOfPizza">
-            table : <input type="number" name="input" ng-model="value"
-                           min="0" max="40" required>
+            table : <input id="table" type="number" name="input" ng-model="value" ng-change="changement()"
+                           min="0" max="40" required="required">
         </form></br>
-        <button ng-click="placeOrder(value)" class="btn btn-sm btn-success">Commander !</button></br>
-
+        <button id="bouton_commander" ng-click="placeOrder(value)" class="btn btn-sm btn-success" ng-disabled="isDisabled">Commander !</button></br>
+        <p>{{statut}}</p>
 
     </div>
     <div class="col-md-10">
@@ -33,28 +32,9 @@
                 <a href="#/pizzas/{{pizza.id}}" class="thumb"><img ng-src="{{pizza.img}}"></a>
                 <a href="#/pizzas/{{pizza.id}}">{{pizza.name}}</a>
                 <p>{{pizza.description}}</p>
-                <input type="text" name="comment" placeholder="Commentaires" ng-model="comment">
-                <button ng-click="addPizza(pizza,comment)" class="btn btn-sm btn-default">Ajouter a la commande</button>
+               <!-- <input type="text" name="comment" placeholder="Commentaires" ng-model="comment"> -->
+                <button ng-click="addPizza(pizza,comment)" class="btn btn-sm btn-info">Ajouter à la commande</button>
             </li>
         </ul>
     </div>
 </div>
-
-
-<script type="text/javascript">
-
-    WebFontConfig = {
-        google: { families: [ 'Source+Sans+Pro:300,400,600:latin,latin-ext' ] }
-    };
-    (function() {
-        var wf = document.createElement('script');
-        wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
-                '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
-        wf.type = 'text/javascript';
-        wf.async = 'true';
-        var s = document.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(wf, s);
-    })();
-</script>
-
-</html>
