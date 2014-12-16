@@ -4,7 +4,7 @@
 
 angular
   .module('PizzaControllers', [])
-  .controller('PizzaListCtrl', ['$scope', '$http', 'Pizza', '$log', function($scope,$http,Pizza, $log) {
+  .controller('PizzaListCtrl', ['$scope', '$http', 'Pizza', '$route', function($scope,$http,Pizza, $route) {
 
     $scope.pizzas = Pizza.query();
     $scope.orderProp = 'name';
@@ -48,8 +48,9 @@ angular
             $scope.statut="commande passée"
             console.log("caca");
           });
-      $scope.panier=[];
-      $scope.order=[];
+      //$scope.panier=[];
+      //$scope.order=[];
+      $route.reload();
     }
   }])
   .controller('PizzaDetailCtrl', ['$scope', '$routeParams', 'Pizza', function($scope, $routeParams, Pizza) {
