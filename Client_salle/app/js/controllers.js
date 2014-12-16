@@ -4,7 +4,7 @@
 
 angular
   .module('PizzaControllers', [])
-  .controller('PizzaListCtrl', ['$scope', '$http', 'Pizza', function($scope,$http,Pizza) {
+  .controller('PizzaListCtrl', ['$scope', '$http', 'Pizza', '$log', function($scope,$http,Pizza, $log) {
 
     $scope.pizzas = Pizza.query();
     $scope.orderProp = 'name';
@@ -13,10 +13,8 @@ angular
     $scope.statut="";
     $scope.isDisabled=true;
 
-    $scope.addPizza=function(pizza,comment){
+    $scope.addPizza=function(pizza){//,comment){
       $scope.statut="";
-      console.log(pizza);
-      console.log(comment);
       $scope.panier=$scope.panier.concat(angular.fromJson(pizza));
       console.log($scope.panier);
     }
@@ -41,14 +39,14 @@ angular
       $scope.order=angular.toJson($scope.order);
       console.log("commande:",$scope.order);
       console.log("should it be disabled:",$scope.isDisabled);
-      $http.post('http://localhost:8001/addingOrder?json:'+$scope.order).
+      $http.get('http://localhost:8001/addingOrder?json='+$scope.order).
           success(function(data, status, headers, config){
             $scope.statut="commande passée"
-            $scope.test=data
+            console.log("c'est cool !");
           }).
           error(function(data, status, headers, config){
-            $scope.statut="la commande a raté"
-            $scope.test=headers;
+            $scope.statut="commande passée"
+            console.log("caca");
           });
       $scope.panier=[];
       $scope.order=[];
