@@ -52,7 +52,7 @@
         <!-- Portfolio Item Heading -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">{{pizz}}
+                <h1 class="page-header">Pizza à préparer
                 </h1>
             </div>
         </div>
@@ -61,23 +61,21 @@
         <!-- Portfolio Item Row -->
         <div class="row">
 
-            <div class="col-md-8">
-                <img class="pizza_img" src="{{pizz.img}}" alt="">
+            <div class="col-md-8"><!--style="background-image: url({{pizzas[0].img}});height: 400px; width: 350px,background-repeat: no-repeat;"-->
+                <img style="width:450px; height=200px" class="pizza_img" src="{{pizzas[0].img}}" alt="">
             </div>
 
             <div class="col-md-4">
-                <h2>{{pizz.name}}</h2>
+                <h2>{{pizzas[0].name}}</h2>
                 <h3>Ingrédients</h3>
-                <p>{{pizz.description}}</p>
+                <p>{{pizzas[0].description}}</p>
                 <h3>Commentaire</h3>
 
-            <p>{{pizz.comment}}</p>
+            <p>{{pizzas[0].comment}}</p>
+                <button ng-click="nextPizza()">Pizza préparée</button>
         </div>
 
-        <div class="col-md-4">
-            <button onclick="nextPizza()">Pizza préparée</button>
-            </ul>
-        </div>
+
 
         </div>
         <!-- /.row -->
@@ -96,32 +94,32 @@
             </div>-->
 
             <div class="col-sm-3 col-xs-6">
-                <h4>{{pizzas[1].img}}</h4>
-                <a href="#">
+                <h4>{{pizzas[1].name}}</h4>
+
                     <img class="pizza_min_img" src="{{pizzas[1].img}}" alt="">
-                </a>
+
             </div>
 
             <div class="col-sm-3 col-xs-6">
-                <h4>{{pizzas[2].img}}</h4>
-                <a href="#">
-                    <img class="pizza_min_img" src="{{pizzas[2].img}" alt="">
-                </a>
+                <h4>{{pizzas[2].name}}</h4>
+               <!-- <a href="#">-->
+                    <img class="pizza_min_img" src="{{pizzas[2].img}}" alt="">
+                <!--</a>-->
             </div>
 
             <div class="col-sm-3 col-xs-6">
-                <h4>{{pizzas[3].img}}</h4>
-                <a href="#">
-                    <img class="pizza_min_img" src="{{pizzas[3].img}" alt="">
-                </a>
+                <h4>{{pizzas[3].name}}</h4>
+
+                    <img class="pizza_min_img" src="{{pizzas[3].img}}" alt="">
+
             </div>
 
             <div class="col-sm-3 col-xs-6">
-                <h4>{{pizzas[4].img}}</h4>
-                <a href="#">
-                    <img class="pizza_min_img" src="{{pizzas[4].img}" alt="">
-                </a>
-            </div>-->
+                <h4>{{pizzas[4].name}}</h4>
+
+                   <img class="pizza_min_img" src="{{pizzas[4].img}}" alt="">
+
+            </div>
 
         </div>
         <!-- /.row -->

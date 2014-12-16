@@ -12,7 +12,6 @@ angular
                     .success(function(data, status){
                         $scope.pizzas = data;
                         console.log(JSON.stringify(data));
-                        $scope.pizz = $scope.pizzas[0];
 
                     })
                     .error(function(data, status) {
@@ -30,6 +29,7 @@ angular
      $scope.nextPizza=function(){
 
         $scope.pizzas.splice(0,1);
+        console.log("\n oh yeah usher\n"+JSON.stringify( $scope.pizzas));
         //changer le statut de la commande
        }
 
