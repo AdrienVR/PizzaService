@@ -40,24 +40,34 @@ def getNameWithoutAccents(name):
                 pass
         return name
 
-def getDescription(name):
+def getDescription(nameNorm):
     x = 0
     for i in range(len(piz)):
-        if len(piz[i].split('"name": "'))<2:continue
-        if piz[i].split('"name": "')[1][:-2]==name:
+        if len(piz[i].split('"id": "'))<2:continue
+        #print piz[i].split('"id": "')[1][:-3], nameNorm
+        if piz[i].split('"id": "')[1][:-3]==nameNorm:
             x = i
             break
-    return piz[i-3].split('"description": "')[1][:-3]
+    #print piz[i]
+    return piz[i-2].split('"description": "')[1][:-3]
+
+
+def getPrice(nameNorm):
+    x = 0
+    for i in range(len(piz)):
+        if len(piz[i].split('"id": "'))<2:continue
+        if piz[i].split('"id": "')[1][:-3]==nameNorm:
+            x = i
+            break
+    return piz[i+4].split('"price": "')[1].split("-")[1].strip().replace(",",".")
 
 def getResult(ide, name, nameNorm):
     if ide in ["{","}"]:
         return ""
-    if ide == '"note": ':
-        return '"5/5",'
-    if ide in ['"price": ','"brewery": ']:
-        return '"",'
+    if ide == '"price": ':
+        return getPrice(nameNorm)
     if ide == '"description": ':
-        return '"'+getDescription(name)+'",'
+        return '"'+getDescription(nameNorm)+'",'
     if ide == '"id": ':
         return '"'+nameNorm+'",'
     if ide == '"name": ':
@@ -68,8 +78,6 @@ def getResult(ide, name, nameNorm):
         return nameNorm + '-label.jpg",'
     if ide == '"comment": ':
         return '"",'
-    if ide == '"price": ':
-        return '"'+"12"+'"'
     print "err",name,ide
     return '"",'
     

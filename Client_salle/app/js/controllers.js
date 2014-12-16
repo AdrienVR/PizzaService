@@ -4,18 +4,17 @@
 
 angular
   .module('PizzaControllers', [])
-  .controller('PizzaListCtrl', ['$scope', 'Pizza', function($scope, Pizza) {
+  .controller('PizzaListCtrl', ['$scope', '$http', 'Pizza', function($scope,$http,Pizza) {
 
     $scope.pizzas = Pizza.query();
-
     $scope.orderProp = 'name';
-
     $scope.panier=[];
-
     $scope.order={};
+    $scope.satut="";
 
     $scope.addPizza=function(pizza,comment){
       var local=$scope.$new(true);
+      $scope.satut="";
       console.log(pizza);
       console.log(comment);
       local.pizza=angular.fromJson(pizza);
@@ -32,8 +31,11 @@ angular
     $scope.placeOrder=function(table){
       $scope.order.table=table;//$scope.order.concat([{table:table}]);
       $scope.order.panier=$scope.panier;//$scope.order.concat($scope.panier);
-      $scope.order=angular.toJson($scope.order)
+      $scope.order=angular.toJson($scope.order);
       console.log("commande:",$scope.order);
+      $http.get('http://localhost:8001/addingOrder?json:'+$scope.order)
+          .success(function(data, status, headers, config){$scope.satut="commande passée"})
+          .error(function(data, status, headers, config){$scope.satut="la commande a raté"});
       $scope.panier=[];
       $scope.order=[];
     }
