@@ -2,24 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9de5615-4f93-49ef-9d48-88bb9beb9266" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/smartjava/PingVerticle$2.class" afterPath="$PROJECT_DIR$/target/classes/org/smartjava/PingVerticle$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/mods/org.smartjava~vertx-demo-1~1.0-SNAPSHOT/org/smartjava/PingVerticle$2.class" afterPath="$PROJECT_DIR$/target/mods/org.smartjava~vertx-demo-1~1.0-SNAPSHOT/org/smartjava/PingVerticle$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/smartjava/PingVerticle$3.class" afterPath="$PROJECT_DIR$/target/classes/org/smartjava/PingVerticle$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/mods/org.smartjava~vertx-demo-1~1.0-SNAPSHOT/org/smartjava/PingVerticle$3.class" afterPath="$PROJECT_DIR$/target/mods/org.smartjava~vertx-demo-1~1.0-SNAPSHOT/org/smartjava/PingVerticle$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/smartjava/PingVerticle$4.class" afterPath="$PROJECT_DIR$/target/classes/org/smartjava/PingVerticle$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/mods/org.smartjava~vertx-demo-1~1.0-SNAPSHOT/org/smartjava/PingVerticle$4.class" afterPath="$PROJECT_DIR$/target/mods/org.smartjava~vertx-demo-1~1.0-SNAPSHOT/org/smartjava/PingVerticle$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/smartjava/PingVerticle$5.class" afterPath="$PROJECT_DIR$/target/classes/org/smartjava/PingVerticle$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/mods/org.smartjava~vertx-demo-1~1.0-SNAPSHOT/org/smartjava/PingVerticle$5.class" afterPath="$PROJECT_DIR$/target/mods/org.smartjava~vertx-demo-1~1.0-SNAPSHOT/org/smartjava/PingVerticle$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/smartjava/PingVerticle$6.class" afterPath="$PROJECT_DIR$/target/classes/org/smartjava/PingVerticle$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/mods/org.smartjava~vertx-demo-1~1.0-SNAPSHOT/org/smartjava/PingVerticle$6.class" afterPath="$PROJECT_DIR$/target/mods/org.smartjava~vertx-demo-1~1.0-SNAPSHOT/org/smartjava/PingVerticle$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/smartjava/PingVerticle$7.class" afterPath="$PROJECT_DIR$/target/classes/org/smartjava/PingVerticle$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/mods/org.smartjava~vertx-demo-1~1.0-SNAPSHOT/org/smartjava/PingVerticle$7.class" afterPath="$PROJECT_DIR$/target/mods/org.smartjava~vertx-demo-1~1.0-SNAPSHOT/org/smartjava/PingVerticle$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/org/smartjava/PingVerticle.class" afterPath="$PROJECT_DIR$/target/classes/org/smartjava/PingVerticle.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/mods/org.smartjava~vertx-demo-1~1.0-SNAPSHOT/org/smartjava/PingVerticle.class" afterPath="$PROJECT_DIR$/target/mods/org.smartjava~vertx-demo-1~1.0-SNAPSHOT/org/smartjava/PingVerticle.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/vertx-demo-1-1.0-SNAPSHOT-mod.zip" afterPath="$PROJECT_DIR$/target/vertx-demo-1-1.0-SNAPSHOT-mod.zip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/vertx-demo-1-1.0-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/target/vertx-demo-1-1.0-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/smartjava/PingVerticle.java" afterPath="$PROJECT_DIR$/src/main/java/org/smartjava/PingVerticle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Verticle.iws" />
@@ -60,7 +42,7 @@
       <file leaf-file-name="PingVerticle.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/smartjava/PingVerticle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3966597" vertical-offset="2411" max-vertical-offset="3553">
+            <state vertical-scroll-proportion="0.58641976" vertical-offset="2411" max-vertical-offset="3553">
               <caret line="153" column="53" selection-start-line="153" selection-start-column="53" selection-end-line="153" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -438,10 +420,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-4" />
-    <option name="y" value="-4" />
-    <option name="width" value="1608" />
-    <option name="height" value="864" />
+    <option name="x" value="2" />
+    <option name="y" value="1" />
+    <option name="width" value="1022" />
+    <option name="height" value="722" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -860,12 +842,12 @@
       <workItem from="1418729299747" duration="215000" />
       <workItem from="1418729557329" duration="150000" />
       <workItem from="1418729742540" duration="990000" />
-      <workItem from="1418730828664" duration="1477000" />
+      <workItem from="1418730828664" duration="1931000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10304000" />
+    <option name="totallyTimeSpent" value="10758000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -888,7 +870,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1608" height="864" extended-state="0" />
+    <frame x="2" y="1" width="1022" height="722" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -901,9 +883,9 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32486632" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4009901" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22336328" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3580247" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1029,7 +1011,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/smartjava/PingVerticle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3966597" vertical-offset="2411" max-vertical-offset="3553">
+        <state vertical-scroll-proportion="0.58641976" vertical-offset="2411" max-vertical-offset="3553">
           <caret line="153" column="53" selection-start-line="153" selection-start-column="53" selection-end-line="153" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
